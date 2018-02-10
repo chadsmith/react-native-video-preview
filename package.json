@@ -1,0 +1,26 @@
+{
+  "name": "react-native-video-preview",
+  "version": "1.0.0",
+  "description": "A <VideoPreview /> element for react-native",
+  "main": "./VideoPreview.js",
+  "module": "./VideoPreview.js",
+  "license": "MIT",
+  "homepage": "https://github.com/chadsmith/react-native-video-preview",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chadsmith/react-native-video-preview.git"
+  },
+  "author": "Chad Smith <chad@developer.email> (https://github.com/chadsmith)",
+  "devDependencies": {
+    "eslint": "1.10.3",
+    "babel-eslint": "5.0.0-beta8",
+    "eslint-plugin-react": "3.16.1",
+    "eslint-config-airbnb": "4.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/eslint *.js"
+  }
+}
